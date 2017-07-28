@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 1366px;
+    width: 80%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -22,9 +22,9 @@ ul {
 
 /* HEADER */
 header {
+    padding: 10px;
     background: #35424a;
     color: #fff;
-    padding-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
@@ -42,22 +42,27 @@ header li {
     padding: 0 20px 0 20px;
 }
 
-header #branding {
+header #logo {
+    display: block;
     float: left;
 }
 
-header #branding h1 {
-    margin: 0;
+header #logo img {
+    height: 75px;
 }
 
 header nav {
     float: right;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 header .highlight, header .current a {
     color: #e8491d;
     font-weight: bold;
+}
+
+header nav img {
+    height: 20px;
 }
 
 header a:hover {
