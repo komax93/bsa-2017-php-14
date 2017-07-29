@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -76,15 +76,29 @@ header a:hover {
 }
 
 .main-menu {
-    width: 400px;
+    width: 550px;
     background: #e0e0e0;
     padding: 15px;
     text-align: left;
 }
 
-.main-content {
-    width: 100%;
-    background: green;
+.main-content-info {
+    text-align: center;
+}
+
+.main-content-info h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.main-content-info p {
+    color: #888;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.main-content-text {
     padding: 15px;
     display: inline-flex;
     justify-content: space-between;
@@ -95,6 +109,25 @@ header a:hover {
     padding: 10px;
     width: 300px;
     text-align: justify;
+}
+
+.content-block i {
+    text-align: center;
+    display: block;
+    font-size: 60px;
+    color: #35424a;
+}
+
+.content-block h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content-block p {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
 }
 
 /* FOOTER */
