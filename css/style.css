@@ -87,7 +87,7 @@ header a:hover {
     background: green;
     padding: 15px;
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -95,4 +95,61 @@ header a:hover {
     padding: 10px;
     width: 300px;
     text-align: justify;
+}
+/* FOOTER */
+footer {
+    background: #252424;
+    border-top: 2px solid #968f8f;
+    color: #fff;
+}
+/* BLOCK 1*/
+.contacts {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts .contacts-item {
+    padding: 15px;
+    color: #fff;
+}
+
+.contacts .contacts-item ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contacts .contacts-item:last-child ul {
+    text-align: right;
+}
+
+.contacts .contacts-item ul li a:hover {
+    color: #e8491d;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info .links li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.info .links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info .links li a:hover {
+    color: #56a79a;
+}
+
+.info .links li a img {
+    height: 35px;
 }
