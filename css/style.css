@@ -79,7 +79,30 @@ header a:hover {
     width: 550px;
     background: #e0e0e0;
     padding: 15px;
+}
+
+.main-menu h2 {
+    text-align: center;
+}
+
+.main-menu li {
+
+    padding: 5px;
+}
+
+.main-menu a {
+    display: block;
     text-align: left;
+    color: #35424a;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid #35424a;
+}
+
+.main-menu a:hover {
+    color: #e8491d;
+    border-bottom: 1px solid #e8491d;
+    transition: 0.20s ease-in	 0.15s;
 }
 
 .main-content-info {
