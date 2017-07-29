@@ -69,3 +69,30 @@ header a:hover {
     color: #e8491d;
     font-weight: bold;
 }
+
+/* MAIN CONTAINER */
+.main {
+    display: flex;
+}
+
+.main-menu {
+    width: 400px;
+    background: #e0e0e0;
+    padding: 15px;
+    text-align: left;
+}
+
+.main-content {
+    width: 100%;
+    background: green;
+    padding: 15px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-block {
+    padding: 10px;
+    width: 300px;
+    text-align: justify;
+}
