@@ -96,13 +96,15 @@ header a:hover {
     width: 300px;
     text-align: justify;
 }
+
 /* FOOTER */
 footer {
     background: #252424;
     border-top: 2px solid #968f8f;
     color: #fff;
 }
-/* BLOCK 1*/
+
+/* FIRST BLOCK */
 .contacts {
     padding: 10px 0;
     display: flex;
@@ -128,6 +130,7 @@ footer {
     color: #e8491d;
 }
 
+/* SECOND BLOCK */
 .info {
     display: flex;
     justify-content: space-between;
